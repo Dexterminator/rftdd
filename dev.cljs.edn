@@ -1,0 +1,8 @@
+^{:watch-dirs   ["test" "src"]
+  :css-dirs     ["resources/public/css"]
+  :auto-testing true
+  :extra-main-files {:cards {:main rftdd.cards}}}
+{:main            rftdd.core
+ :closure-defines {"re_frame.trace.trace_enabled_QMARK_" true}
+ :devcards        true
+ :preloads        [day8.re-frame-10x.preload]}
